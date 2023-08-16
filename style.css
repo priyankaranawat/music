@@ -39,15 +39,22 @@ body{
 #logoimage 
 {
     border: 2px solid transparent;
+   
 }
 #logoimage img{
     border-radius: 50%;
+    height: 4.5rem; 
+    width: 5rem;
+    /* height: 70%; 
+    width: 70%; */
 }
+
+
 #logoimage:hover{
     border: 2px solid white;
 }
 #logoText{
-    display: block;
+    /* display: block; */
     border: 2px solid transparent;
     padding: 1rem;
 }
@@ -69,8 +76,13 @@ body{
     align-items: center;
     border-radius: 10px ;
     width: 30rem;
+    width:70%;
     /* border: 2px solid green; */
 }
+
+
+
+
 
 input{
     background-color: #3c096c   ;
@@ -92,6 +104,10 @@ input{
     width: 5rem;
     border-radius: 50%;
 }
+
+
+
+
 #allRows_queue
 {
     display: flex;
@@ -128,7 +144,9 @@ input{
     margin-right: 0px;
     color: white;
 }
-
+#latestRelease{
+    margin-left: 40%;
+}
 #secondRowBox1{
     display: flex;
     justify-content: space-around;
@@ -158,6 +176,10 @@ input{
     border-radius: 5px;
 }
 
+
+
+
+
 #thirdRow{
     height: 15rem;
     width: 85%;
@@ -176,6 +198,9 @@ input{
     height: 100%;
     box-shadow: white 0 0 20px;
 }
+#popularArtists{
+    margin-left: 40%;
+} 
 
 #fourthRow
 {
@@ -365,4 +390,300 @@ input{
     height: 3rem;
     border-radius: 5px;
 }
+
+
+
+@media(min-width:100px)and (max-width:400px)
+{
+    #nav{
+      
+        font-size: 0.8rem;
+        position:absolute;
+        border: 2px solid aquamarine;
+    }
+    #navLeftSide{
+      display: flex;
+      justify-content: flex-end;
+    }
+    #logoimage 
+    {
+       
+        height: 2rem;
+        width: 2rem;
+        position: relative;
+        left: 2rem;
+    }
+    #logoimage img{
+        height:2rem;
+        width: 2rem;
+    }
+    
+    
+   
+    #logoText{
+       
+        border: 0.1px solid transparent;
+        padding: 0.1rem;
+        position: relative;
+        left: 2rem;
+    }
+    
+    #favourites{
+       font-size: 0.01rem;
+      visibility: hidden;
+    }
+  
+    
+    #navRightSide{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+        width:70%;
+        /* border: 0.1px solid aqua; */
+       
+    }
+
+
+    #searchbar{
+       
+        border-radius: 5px ;
+       position: relative;
+       left: 2.5rem;
+        width:75%;
+        /* border: 0.1px solid green; */
+    }
+    #bell{
+        position: relative;
+        left: 1.7rem;
+    }
+    input{
+       
+       width: 100%;
+        font-size: small;
+    }
+    
+    
+    
+    #streak img{
+        
+        height: 2rem; 
+        width: 3rem;
+        border-radius: 50%;
+    }
+   #firstRow{
+        height: 10rem;
+         position: relative;
+        right: 4rem;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    #firstRow img{
+        height: 70%;
+    }
+    
+    #secondRow
+{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 10rem;
+    width: 95%;
+    align-items: center;
+    justify-content: space-evenly;
+   position: relative;
+   right: 4rem;
+   bottom: 4rem;
+    color: white;
+}
+
+#secondRowBox1{
+    display: block;
+   height: 80%;
+   
+  
+}
+#secondRowBox1 img{
+    height: 80%;
+    border-radius: 2px;
+    width: 100%;
+}
+#secondRowBox1 h3{
+    position: relative;
+    bottom: 1.3rem;
+   
+}
+#secondRowBox1 p{
+    visibility: hidden;
+}
+#secondRowBox2{
+    display: block;
+   height: 80%;
+   
+}
+#secondRowBox2 img{
+    height: 80%;
+    border-radius: 2px;
+    width: 100%;
+}
+#secondRowBox2 h3{
+    position: relative;
+    bottom: 1.3rem;
+}
+#secondRowBox2 p{
+    visibility: hidden;
+}
+
+#latestRelease{
+    margin-left: 20%;
+    position: relative;
+    bottom: 2rem;
+}
+#queueTitle{
+    margin-left: 20%;
+}
+
+#q01 img{
+   height: 60% ;
+}
+
+#thirdRow{
+    height: 10rem;
+    width: 95%;
+  
+   position: relative;
+   right: 4rem;
+   bottom: 4rem;
+}
+#thirdRowImages{
+   
+    height: 50%;
+}
+
+#popularArtists{
+    margin-left: 20%;
+} 
+   
+#fourthRow
+{
+   
+    height: 7rem;
+    width: 85%;
+   
+    position: relative;
+    right: 4rem;
+   bottom: 4rem;
+    
+}
+
+#fourthRow img{
+    border-radius:50% ;
+    width:18%;
+    height: 80%;
+  
+    
+}
+
+#fifthRow{
+    height: 10rem;
+    width: 95%;
+    
+   
+  position: relative;
+  right: 4rem;
+  bottom: 8rem;
+}
+#fifthRow img{
+    height: 70%;
+   
+   
+    
+}
+#sixthRow{
+    height: 10rem;
+    width: 130%;
+    position: relative;
+    right: 3rem;
+    bottom: 15rem;
+}
+#sixthRow h2{
+    position: relative;
+    bottom: 2rem;
+}
+#sixthRow h3{
+    position: relative;
+    bottom: 2rem;
+}
+#sixthRow p{
+    visibility: hidden;
+}
+#sixthRow button{
+    height: 1.5rem;
+    width: 7rem;
+    background-image: linear-gradient(to right, #800f2f ,#ffb3c1);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    position: relative;
+    bottom: 15rem;
+}
+#sixthRow span{
+    position: relative;
+    bottom: 15rem;
+}
+
+#seventhRow
+{
+   
+    width: 130%;
+   position: relative;
+   right: 3rem;
+   bottom: 15rem;
+    
+}
+
+#footer{
+   
+    font-size: 0.8rem;
+    border: 2px solid aquamarine;
+    
+    bottom: 6rem;
+    
+}
+
+#foot1 i
+{
+   visibility: hidden;
+}
+
+
+
+#foot2 input{
+   
+    position: relative;
+    left: 1rem;
+}
+
+
+
+#foot3 i{
+   visibility: hidden;
+}
+#foot3 input{
+    position: relative;
+    right: 2rem;
+    
+}
+
+#footer img{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 5px;
+}
+
+
+
+}
+
 
